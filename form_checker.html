@@ -1,0 +1,25 @@
+
+
+<html>
+<head>
+<script type="text/javascript">
+function notEmpty(){
+	var x = document.getElementById("myText");
+
+	if(x.value != ""){
+	alert("You Entered " + x.value);
+	}
+	else{
+	alert("Would you kindly enter some texts");
+	}
+}
+</script>
+</head>
+
+<body>
+<input type = "text" id="myText" >
+<input type="button" onclick ="notEmpty()" value="Form checker">
+</body>
+</html>
+
+

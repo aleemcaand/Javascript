@@ -1,0 +1,7 @@
+<script type="text/javascript">
+function nacee(){
+	var myvar="Local"; //Local variab;le declared.
+	document.write(myvar);
+}
+
+</script>

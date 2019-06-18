@@ -1,0 +1,11 @@
+
+
+Conditional operator
+
+
+variable = (condition)? value1: value2;
+
+
+greeting = (visitor=="press")? "Dear president": "Dear";
+
+// if visitor be press then the variable's value be Dear president nor the value be only Dear

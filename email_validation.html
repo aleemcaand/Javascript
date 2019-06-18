@@ -1,0 +1,27 @@
+
+<html>
+<head>
+<script type="text/javascript">
+function validateForm(){
+	var x = document.forms["myForm"]["email"].value;
+	var atpos = x.indexOf("@");
+	var dotpos = x.lastIndexOf(".");
+
+	if(atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length){
+	alert("Not a valid email address");
+	return false;
+	}
+}
+</script>
+</head>
+
+<body>
+<form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+
+Email: <input type = "text" name="email" >
+<input type="submit" value="submit!">
+</form>
+</body>
+</html>
+
+

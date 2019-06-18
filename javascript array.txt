@@ -1,0 +1,11 @@
+
+
+var myNames = newNames(20);
+myNames[0] = "jkdfh";
+myNames[1] = "kfj";
+myNames[2] = "mfnhf"; // here assign the integer value to limitted the arrays position
+
+
+var myProducts = newproduct('jfh', 'hdghd', 'jkdhu');  // condensed expression to bulid array
+
+var cartoons = ["cbhj", "cfhjd", "hfh"]; //regular array

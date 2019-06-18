@@ -1,0 +1,20 @@
+
+
+const country = 'Bangladesh'; 
+
+// variable name and constant name must not be same.
+
+function abc(){
+	const abc = 44;
+}
+
+function abc(){
+	
+	const x = 15;
+	var x;  // constant and variable name must be different
+
+}
+
+
+
+so, function constant and variable name must be different for a green program.

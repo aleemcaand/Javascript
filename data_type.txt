@@ -1,0 +1,25 @@
+
+
+1. Number data type
+   var age = 25; //simple integer, decimal
+
+   var measurement = 5.397e-9; //floating point on scientific notation
+
+
+   var enabled = true;
+   var disabled = false; // these are boolean expression
+
+
+
+   string data types are normally covered with qutation  such as
+
+   var strdt = 'something';
+
+
+   null data type
+
+   var mnx = null;
+
+
+   undefined data type..
+   var mnx;
